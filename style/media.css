@@ -1,0 +1,128 @@
+@media(max-width: 1399px) {
+    .skills__info {
+        padding: 100px;
+        
+    }
+}
+
+@media(max-width: 1210px) {
+    .skills__info {
+        padding: 50px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .footer__about {
+        margin: auto 20px;
+        order: -1;
+        max-width: 100%;
+    }
+    .process__item {
+        margin: 0 20px;
+    }
+    .footer__info {
+        margin: 10px auto 0;
+    }
+}
+
+@media(max-width: 991px) {
+    .input1 {
+        margin: auto;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .input2 {
+        margin: auto;
+        max-width: 100%;
+    }
+    .skills__info {
+        padding: 20px 50px 20px 20px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+    .nav-link {
+        padding: 5px 0;
+    }
+    .ellips {
+        width: 50px;
+        height: 50px;
+    }
+    .play__img {
+        width: 8px;
+    }
+    .footer__text-title {
+        margin-bottom: 10px;
+    }
+    .footer__info {
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 767px) {
+    .header__text {
+        padding-left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: none;
+    }
+    
+    
+    .footer-menu {
+        text-align: center;
+    }
+    .footer__about {
+        justify-content: center;
+        margin: 0 0 0 -10px;
+    }
+    .footer__text {
+        margin-bottom: 15px;
+    }
+    .skills__info {
+        align-items: center;
+        padding: 25px 15px;
+    }
+    .process__text {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 575px) {
+    .stat__icon {
+        margin-top: 20px;
+    }
+    .stat__text {
+        margin-bottom: 40px;
+    }
+    .ellips {
+        width: 40px;
+        height: 40px;
+    }
+    .play__img {
+        width: 7px;
+    }
+}
+
+@media(max-width: 556px){
+    .extra__news {
+        justify-content: center!important;
+    }
+}
+
+@media(max-width: 490px) {
+    .header {
+        text-align: center;
+    }
+
+    .skills__info-title {
+        text-align: center;
+    }
+
+    .process__title {
+        text-align: center;
+        line-height: 45px;
+        margin-top: 20px;
+    }
+}
